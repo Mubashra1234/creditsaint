@@ -1,0 +1,40 @@
+.navbar{
+    left: 0;
+    position: fixed;
+    right: 0;
+    z-index: 1030;
+    margin: 16px;
+    border-radius: 8px;
+    padding: 0 8px;
+    box-shadow: 0 8px 60px rgba(0, 0, 0, .12);
+    &-brand{
+        padding-block: 13px;
+    }
+    .nav-item{
+        margin-right: 20px;
+     
+    }
+    .nav-link{
+        padding: 8px 10px;
+        color: #000;
+font-size: 16px;
+font-weight: 500;
+line-height: 140%;
+    }
+    form{
+        .nav-link{
+        padding: 15px;
+        }
+        .theme-btn{
+            padding: 12px 24px;
+            background-color: $primary-color !important;
+            box-shadow: none !important;
+            color: white;
+              font-size: 16px;
+              font-weight: 500;
+              line-height: 140%;
+              border-radius: 30px;
+              width: fit-content;
+        }
+    }
+}

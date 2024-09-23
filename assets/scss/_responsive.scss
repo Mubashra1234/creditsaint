@@ -1,0 +1,171 @@
+@media(max-width:1200px){
+    .opportunities-list {
+        margin-bottom: 15px;
+    }
+    .opportunities .row{
+  justify-content: center;
+    }
+    .section-heading {
+        font-size: 30px;
+    }
+    .section-paragraph {
+        font-size: 16px;
+        padding-bottom: 20px;
+    }
+    .gurantee-content {
+        max-width: 80%;
+    }    
+    .work-step__number {
+        display: none;
+    }
+    .work-card{
+        padding-right: 0;
+        background: white;
+        border-radius: 8px;
+        box-shadow: 0 0 45px 0 rgba(0, 0, 0, .1);
+        padding: 20px;
+        width: 100%;
+    }
+    .work .row{
+        justify-content: center;
+    }
+    .theme-btn{
+        max-width: 240px;
+font-size: 15px;
+    }
+    .navbar-brand img{
+        height: 43px;
+        width: 172px;
+    }
+    .navbar .nav-item {
+        margin-right: 10px;
+    }
+
+    .banner-content {
+        max-width: 639px;
+    }
+}
+@media(max-width:992px){
+    .navbar form .theme-btn{
+        display: block;
+    }
+    .navbar-collapse {
+        padding-bottom: 20px;
+}
+.banner::after{
+    top: 733px;
+
+}
+.our-solution .main-img{
+    display: none;
+}
+.our-solution{
+    text-align: center;
+}
+.our-solution p{
+    margin: auto;
+}
+.our-solution .solution-list{
+    justify-content: end;
+}
+.our-solution .theme-btn{
+    margin: auto;
+    margin-top: 20px;
+}
+.tailored-content{
+    display: block;
+}
+.tailored-content h1 {
+    font-size: 40px;
+}
+.tailored-content h1 {
+    font-size: 55px;
+    width: fit-content;
+    margin: auto;
+}
+.tailored-content p {
+    text-align: center;
+    margin-block: 10px;
+}
+.financial-item{
+    margin-bottom: 20px;
+}
+.feature .section-heading{
+    text-align: center;
+}
+.feature .section-paragraph{
+ margin: auto;
+ text-align: center;
+ }
+.feature .theme-btn{
+    margin: auto;
+}
+.banner{
+    padding: 108px 0 79px;
+}
+.banner::after {
+    top: 553px;
+}
+.banner-content h1 {
+    font-size: 41px;
+}
+.banner-content .review-rating {
+    font-size: 38px;
+}
+.banner::after {
+    top: 496px;
+}
+.choice .section-heading{
+    text-align: center;
+}
+.choice .section-paragraph{margin: auto;}
+.choice .d-flex{
+    justify-content: center;
+}
+.our-solution .solution-list {
+    justify-content: center;
+}
+.gurantee-content{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.gurantee-content .theme-btn{
+    margin: auto;
+}
+.feature .section-paragraph {
+    max-width: 80%;
+}
+
+}
+@media(max-width:576px){
+    .navbar{
+margin: 0;  
+padding: 0;  }
+.banner-content h1 {
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+.banner-content p{
+    font-size: 16px;
+}
+.choice .section-paragraph{
+    max-width: 100%;
+ text-align: center;
+}
+.our-solution p{
+    max-width: 100%;
+}
+.our-solution .solution-list{
+    display: block;
+}
+.our-solution .solution-list ul{
+    margin-bottom: 20px;
+}
+.theme-btn{
+    font-size: 13px;
+}
+.gurantee img {
+    max-width: 270px;
+}
+}
+

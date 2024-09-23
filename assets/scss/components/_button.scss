@@ -1,0 +1,30 @@
+.theme-btn{
+  background: linear-gradient(178deg, #fc8937 2.07%, #ec6200 137.73%);
+    box-shadow: 0 8px 10px 0 rgba(252, 137, 55, .4);
+    border-radius: 400px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 135%;
+    max-width: 330px;
+    padding: 14px 35px;
+    text-align: center;
+    width: 100%;
+}
+
+.section-heading{
+    color: $secondry-color;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.section-paragraph{
+  color: $text-color;
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 30px;
+    margin: 0;
+    span{
+      background: linear-gradient(#ffd5b7, #ffd5b7) no-repeat 100% 12px;
+    }
+}
