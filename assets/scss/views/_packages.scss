@@ -1,0 +1,301 @@
+.packages-banner{
+    background-color: $secondry-color;
+    padding-block: 200px 70px;
+    &-content{
+        text-align: center;
+    h1{
+        font-size: 52px;
+        font-weight: 600;
+        letter-spacing: -.01em;
+        line-height: 57px;
+    }
+    .line{
+        position: relative;
+        &::before {
+        background: url(../img/line-short.svg) 100% 0 no-repeat;
+        bottom: -25px;
+        content: "";
+        display: block;
+        height: 30px;
+        left: 0;
+        position: absolute;
+        width: 100%;
+    }
+  
+    }
+    p{
+        font-size: 22px;
+        line-height: 31px;
+        font-weight: 500;
+        margin-top: 24px;
+    }
+}
+}
+
+.price-cards{
+    margin: 40px auto;
+    padding: 40px 0;
+}
+.pricing-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    height: 100%;
+    
+  
+    .card-header {
+      text-align: center;
+      margin-bottom: 20px;
+      background-color: #bae2ff;
+      border-radius: 12px;
+      padding-top: 45px;
+
+      
+      .card-title {
+        font-size: 25px;
+        font-weight: 600;
+        z-index: 1;
+        color: $secondry-color;
+      }
+  
+      .card-aggressiveness {
+        font-size: 14px;
+        text-transform: uppercase;
+        color: $text-color;
+      }
+  
+      .price-section {
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+        margin-block: 16px 8px;
+  
+        .price {
+            font-size: 57px;
+            font-weight: 600;
+            line-height: 40px;
+            color: $secondry-color;
+        }
+  
+        .per-month {
+          font-size: 14px;
+          color: #6b7280;
+          margin-left: 5px;
+        }
+      }
+  
+      .working-fee {
+        padding-bottom: 42px;
+color: $secondry-color;
+font-weight: 500;
+font-size: 16px;
+      }
+    }
+  
+    .card-features {
+      list-style: none;
+    padding: 20px;
+    padding-inline: 20px;
+
+  
+      li {
+        margin-top: 2rem;
+        display: flex;
+        align-items: center;
+        font-weight: 600;
+ color: $secondry-color;
+ font-size: 1rem;
+ span{
+    padding-left: 10px;
+ }
+       
+      }
+    }
+  }
+
+
+
+.trusted{
+    padding-block: 100px;
+    .section-heading{
+        font-size: 52px;
+         padding-bottom: 70px;
+    }
+    .money-back{
+        border: 2px solid #fff;
+    box-shadow: 0 0 0 9px #08324c;
+    height: 191px;
+    width: 191px;
+    background-color: $secondry-color;
+    border-radius: 100%;
+    color: #fff;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    h3{
+        font-size: 46px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-align: center;
+    }
+    .guarantee-subtitle{
+        font-size: 16px;
+    font-weight: 500;
+    position: relative;
+    text-align: center;
+    &::before{
+        background: url(../img/one-star.svg) no-repeat;
+    content: "";
+    height: 20px;
+    position: absolute;
+    top: 4px;
+    width: 20px;
+    left: -29px;
+    }
+    &::after{
+        background: url(../img/one-star.svg) no-repeat;
+        content: "";
+        height: 20px;
+        position: absolute;
+        top: 4px;
+    right: -29px;
+
+        width: 20px;
+    }
+    }
+    a{
+        color: #fff;
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 13.2px;
+        text-align: center;
+        display: block;
+        }
+    }
+   
+}
+
+.process{
+    background-color: #eff8ff;
+    color: #08324c;
+    padding-block: 120px 100px;
+    &-heading{
+   
+        text-align: center;
+    }
+    &-item{
+        border: 40px solid #e0f2ff;
+        border-radius: 330px;
+        position: relative;
+        &-img{
+            border: 40px solid #d4edff;
+            border-radius: 100%;
+            box-sizing: content-box;
+            display: block;
+  
+        }
+    }
+    &-card-body{
+        text-align: center;
+        margin-top: 50px;
+        .step{
+        display: inline-block;
+    margin-bottom: 0;
+    background-color: #fff !important;
+    margin-right: 15px;
+    border-radius: 100%;
+    color: $secondry-color;
+    font-size: 24px;
+    font-weight: 600;
+    height: 52px;
+    line-height: 52px;
+    text-align: center;
+    width: 52px;
+}
+h4{
+    font-size: 20px;
+    font-weight: 600;
+   color: $secondry-color;
+    display: inline-block;
+}
+p{
+    font-size: 18px;
+    margin: 0 auto;
+    max-width: 340px;
+    font-weight: 500;
+    line-height: normal;
+    color: $secondry-color;
+}
+    }
+}
+
+
+.worry-free{
+    padding: 100px 0;
+    position: relative;
+    overflow: hidden;
+    .btn-learn-more{
+        background: $secondry-color;
+        box-shadow: none;
+    }
+    p{
+        font-size: 18px;
+color: #212529;
+margin-top: 50px;
+max-width: 440px;
+a{
+    font-weight: 600;
+    color: $secondry-color;
+    font-size: 20px;
+    text-decoration: underline;
+}
+    }
+    span{
+        color: #0e4464;
+        font-size: 14px;
+        font-weight: 500;
+        max-width: 320px;
+        display: block;
+    }
+    .worry-free__bg{
+        bottom: 50%;
+        left: auto;
+        margin-bottom: -500px;
+        margin-left: auto;
+        margin-right: -500px;
+        right: 0;
+        position: absolute;
+        width: 1000px;
+        z-index: -1;
+        background-color: #e7f6ff;
+    border-radius: 100%;
+    height: 1000px;
+    
+        &::before{
+            border-radius: 100%;
+            content: "";
+            display: block;
+            left: 50%;
+            position: absolute;
+            top: 50%;background-color: #d7f1ff;
+            height: 750px;
+            margin-left: -375px;
+            margin-top: -375px;
+            width: 750px;
+        }
+        &::after{
+            background-color: #afe3ff;
+            height: 550px;
+            margin-left: -275px;
+            margin-top: -275px;
+            width: 550px;
+            border-radius: 100%;
+    content: "";
+    display: block;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+        }
+    }
+}

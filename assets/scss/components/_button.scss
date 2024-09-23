@@ -17,6 +17,9 @@
     font-size: 40px;
     font-weight: 600;
     margin-bottom: 20px;
+    span{
+      color: $primary-color;
+    }
 }
 .section-paragraph{
   color: $text-color;
@@ -26,5 +29,10 @@
     margin: 0;
     span{
       background: #92c4dd7a;
+    }
+    a{
+      font-size: 18px;
+      font-weight: 500;
+      text-decoration: underline;
     }
 }
