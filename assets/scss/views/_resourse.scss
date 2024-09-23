@@ -1,0 +1,45 @@
+.resourse {
+  &-box {
+    box-shadow: 00px 0px 15px 7px rgba(0, 0, 0, 0.05);
+    border-radius: 15px;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+    .article_category {
+        font-size: 10px;
+        font-weight: 600;
+        color: $secondry-color;
+        opacity: 0.4;
+        margin-bottom: 5px;
+        text-transform: uppercase;
+        padding: 5px 20px 0;
+    }
+    .article_title{
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 5px;
+    line-height: 1.3;
+    height: 65px;
+    padding: 0 20px;
+    }
+    .article_date{
+        font-size: 12px;
+    font-weight: 500;
+    color: $secondry-color;
+    opacity: 0.4;
+    margin-bottom: 20px;
+    padding: 0 20px;
+    }
+  }
+  .resourse-heading {
+    padding-top: 120px;
+  }
+  &-cards{
+    width: 1116px;
+    margin: 0px auto;
+  }
+}

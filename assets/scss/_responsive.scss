@@ -189,8 +189,21 @@ font-size: 15px;
 .banner {
 
     background-position: bottom;}
-}
 
+.faq-banner {
+    padding-top: 116px;
+}
+.faq-banner-content h1{
+    font-size: 37px;
+    margin-bottom: 20px;
+}
+.faq-section .accordion-button{
+font-size: 16px;
+}
+.faq-section .accordion-body {
+    font-size: 16px;
+}
+}
 @media(max-width:576px){
     .navbar{
 margin: 0;  
@@ -267,6 +280,14 @@ padding: 0;  }
     padding: 11px 0px;
 
 }
-}
 
+}
+.faq-banner-content h1 {
+    font-size: 27px;
+    margin-bottom: 14px;
+}
+.faq-banner-content p{
+    max-width: 100%;
+    font-size: 14px;
+}
 }
