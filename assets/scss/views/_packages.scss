@@ -9,20 +9,9 @@
         letter-spacing: -.01em;
         line-height: 57px;
     }
-    .line{
-        position: relative;
-        &::before {
-        background: url(../img/line-short.svg) 100% 0 no-repeat;
-        bottom: -25px;
-        content: "";
-        display: block;
-        height: 30px;
-        left: 0;
-        position: absolute;
-        width: 100%;
-    }
+   
   
-    }
+    
     p{
         font-size: 22px;
         line-height: 31px;
@@ -31,7 +20,19 @@
     }
 }
 }
-
+.line{
+    position: relative;
+    &::before {
+    background: url(../img/line-short.svg) 100% 0 no-repeat;
+    bottom: -25px;
+    content: "";
+    display: block;
+    height: 30px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
+}
 .price-cards{
     margin: 40px auto;
     padding: 40px 0;
