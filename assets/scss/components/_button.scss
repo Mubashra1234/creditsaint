@@ -1,6 +1,6 @@
 .theme-btn{
-  background: linear-gradient(178deg, #fc8937 2.07%, #ec6200 137.73%);
-    box-shadow: 0 8px 10px 0 rgba(252, 137, 55, .4);
+  background: $secondry-color;
+    box-shadow: 0 8px 10px 0 rgb(27 56 74 / 52%);
     border-radius: 400px;
     color: #fff;
     font-size: 20px;
@@ -25,6 +25,6 @@
     padding-bottom: 30px;
     margin: 0;
     span{
-      background: linear-gradient(#ffd5b7, #ffd5b7) no-repeat 100% 12px;
+      background: #92c4dd7a;
     }
 }

@@ -16,6 +16,7 @@
     top: 640px;
     width: 100%;
     z-index: 2;
+    transform: rotate(0) scaleX(-1);
   }
   &-content {
     max-width: 580px;
@@ -170,6 +171,51 @@
     }
   }
 }
+
+.service{
+  &-heading{
+    margin-bottom: 50px;
+    p{
+      color: #000;
+    }
+    h3{
+      color: #1b384a;
+      font-size: 40px;
+      font-weight: 600;
+      margin-bottom: 20px;
+    }
+  }
+  .tab-content{
+    img{
+      object-fit: cover;
+    }
+  }
+  .tab-pane{
+    h3{
+      
+    color: #1b384a;
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    }
+    p{
+      color: #000;
+    }
+  }
+  .nav-pills .nav-link.active{
+    background-color: $secondry-color;
+    i{
+      color: #fff;
+    }
+  }
+  .nav-link{
+    color: #1b384a;
+  }
+  .theme-btn{
+    display: inline-block;
+    
+  }
+}
 .tailored {
   background: #eff8ff;
   padding: 40px 0;
@@ -184,7 +230,7 @@
       font-size: 64px;
       font-weight: 600;
       text-align: center;
-      background: linear-gradient(#ffd5b7, #ffd5b7) no-repeat 100% 45px;
+      background: linear-gradient(#eff8ff, #1096ff) no-repeat 100% 45px;
     }
     p {
       color: $secondry-color;
@@ -312,6 +358,7 @@
     width: 100%;
     .theme-btn {
       margin: 0 auto;
+      background-color: #0d6efd;
     }
   }
 }
@@ -380,8 +427,38 @@
   }
 }
 
+
+/*** Callback ***/
+.callback {
+  position: relative;
+}
+
+.callback::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 50%;
+  top: 0;
+  left: 0;
+  background: linear-gradient(rgb(239 248 255 / 75%), rgb(239 248 255 / 70%)), url(../img/bg.png);
+  z-index: -1;
+}
+.callback h5{
+
+  color: #1b384a;
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.form-floating>label{
+  color: #000;
+
+  font-size: 16px;
+}
+
 footer {
-  background: linear-gradient(180deg, #eff8ff 6.16%, #fff 83.12%);
+  background: #eff8ff;
   margin-top: 100px;
   padding: 0;
   position: relative;
@@ -397,6 +474,12 @@ footer {
     top: -100px;
     width: 100%;
     z-index: 1;
+  }
+  p{
+    color: $text-color;
+  }
+  h4{
+    color: $secondry-color;
   }
   .callnow {
     padding-block: 36px 40px;
