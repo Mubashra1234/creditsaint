@@ -44,6 +44,47 @@ font-size: 15px;
     .banner-content {
         max-width: 639px;
     }
+    .pricing-card .card-features li {
+        margin-top: 1rem;
+    }
+    .pricing-card {
+        height: 98%;
+    }
+    .trusted .section-heading {
+        font-size: 33px;
+        padding-bottom: 18px;
+    }
+    .process-item{
+        max-width: fit-content;
+        margin: auto;
+        margin-bottom: 90px;
+    }
+    .worry-free__bg{
+        display: none;
+    }
+    .worry-free .section-heading{
+        text-align: center;
+    }
+    .worry-free .section-paragraph{
+        margin: auto;
+        text-align: center;
+    }
+    .worry-free p{
+        margin: auto;
+        margin-top: 20px;
+     text-align: center;
+    }
+    .worry-free span{
+        margin: 20px auto;
+        text-align: center;
+    }
+    .worry-free-img{
+        text-align: center;
+    }
+    .process-card{
+        margin-top: 20px;
+    }
+   
 }
 @media(max-width:992px){
     .navbar form .theme-btn{
@@ -55,6 +96,12 @@ font-size: 15px;
 .banner::after{
     top: 733px;
 
+}
+.packages-banner-content h1 {
+    font-size: 41px;
+}
+.packages-banner{
+    padding-block: 140px 70px;
 }
 .our-solution .main-img{
     display: none;
@@ -166,6 +213,50 @@ padding: 0;  }
 }
 .gurantee img {
     max-width: 270px;
+}
+.packages-banner-content h1 {
+   margin-bottom: 10px;
+    font-size: 24px;
+}
+.packages-banner-content p {
+    font-size: 17px;
+    line-height: 24px;
+    margin-top: 0;
+}
+.pricing-card .card-header .card-title {
+    font-size: 17px;
+}
+.pricing-card .card-header .card-aggressiveness {
+    font-size: 12px;
+}
+.pricing-card .card-header .price-section .price {
+    font-size: 35px;
+}
+.pricing-card .card-features{
+    padding-inline: 10px;
+}
+.pricing-card .card-features li span{
+    font-size: 14px;
+}
+.trusted{
+    padding-top: 0;
+}
+.trusted .section-heading {
+    font-size: 24px;
+    text-align: center;
+}
+.trusted .theme-btn{
+    margin: auto;
+}
+.trusted .money-back{
+    margin:  auto;
+    margin-top: 50px;
+
+
+}
+.worry-free .theme-btn{
+    padding: 11px 0px;
+
 }
 }
 
