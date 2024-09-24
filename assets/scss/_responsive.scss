@@ -84,7 +84,20 @@ font-size: 15px;
     .process-card{
         margin-top: 20px;
     }
-   
+    .about-banner-content h1 {
+        font-size: 50px;
+    }
+    .about-banner-content p {
+        font-size: 21px;
+     margin-bottom: 50px;
+    }        
+    .credit-content h2 {
+        font-size: 38px;
+    }
+    .credit-content p, .credit-content p a{
+        font-size: 18px;
+        line-height: 25px;
+    }    
 }
 @media(max-width:992px){
     .navbar form .theme-btn{
@@ -182,8 +195,41 @@ font-size: 15px;
 .feature .section-paragraph {
     max-width: 80%;
 }
+.credit-content h2 {
+    font-size: 28px;
+}
+.credit{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+}
+.credit-content{
+    position: initial;
+    transform: translateY(0px);
+    text-align: center;
+    margin-bottom: 52px;
 
 }
+.credit-img .mobile-img{
+    display: block;
+    margin: auto;
+}
+.credit-img .desktop-img{
+    display: none;
+}
+.credit-content p, .credit-content p a {
+  
+    margin: auto;
+    max-width: 75%;
+
+
+}
+.credit-content-btn{
+    justify-content: center;
+}
+}
+
 @media(max-width:768px){
   
 .banner {
@@ -202,6 +248,21 @@ font-size: 16px;
 }
 .faq-section .accordion-body {
     font-size: 16px;
+}
+.about-banner{
+    padding-bottom: 71px;
+    padding-top: 175px;
+}
+.about-banner-content h1 {
+    font-size: 36px;
+}
+.about-banner-content p {
+    font-size: 17px;
+    margin-bottom: 28px;
+}
+.trusted .theme-btn{
+    margin-bottom: 40px;
+
 }
 }
 @media(max-width:576px){
@@ -289,5 +350,26 @@ padding: 0;  }
 .faq-banner-content p{
     max-width: 100%;
     font-size: 14px;
+}
+.about-banner-content h1 {
+    font-size: 32px;
+}
+.about-banner-content p {
+    font-size: 14px;
+    margin-bottom: 3px;
+}
+.credit-content p, .credit-content p a{
+    max-width: 100%;
+    font-size: 16px;
+        line-height: 21px;
+}
+.credit-content-btn{
+    display: block;
+    a{
+        display: block;
+        margin: auto;
+        margin-block: 20px;
+
+    }
 }
 }
