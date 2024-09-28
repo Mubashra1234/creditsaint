@@ -7,30 +7,30 @@ $(".slick-slider").slick({
     arrows: false,
     responsive: [
         {
-            breakpoint: 1400, 
+            breakpoint: 1400,
             settings: {
-                slidesToShow: 5.5, 
+                slidesToShow: 5.5,
             }
         },
         {
-            breakpoint: 1200, 
+            breakpoint: 1200,
             settings: {
-                slidesToShow: 4, 
+                slidesToShow: 4,
             }
         },
         {
-            breakpoint: 992, 
+            breakpoint: 992,
             settings: {
-                slidesToShow: 3, 
+                slidesToShow: 3,
             }
         },
         {
-            breakpoint: 576, 
+            breakpoint: 576,
             settings: {
-                slidesToShow: 2, 
+                slidesToShow: 2,
             }
         },
-       
+
     ]
 });
 
@@ -69,3 +69,20 @@ $(".testimonial-slider").slick({
         }
     ]
 });
+
+
+
+
+function myFunction(x) {
+    x.classList.toggle("change");
+}
+
+window.onscroll = function () { scrollFunction() };
+var menutop = document.getElementById("header-lower");
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        menutop.classList.add("menufixtop");
+    } else {
+        menutop.classList.remove("menufixtop");
+    }
+}

@@ -1,12 +1,17 @@
 .navbar{
     left: 0;
-    position: fixed;
+    position: absolute;
     right: 0;
     z-index: 1030;
     margin: 16px;
     border-radius: 8px;
     padding: 0 8px;
     box-shadow: 0 8px 60px rgba(0, 0, 0, .12);
+    &.menufixtop{
+        position: fixed;
+        
+    top: 0;
+    }
     &-brand{
         padding-block: 13px;
     }
@@ -35,6 +40,26 @@ line-height: 140%;
               line-height: 140%;
               border-radius: 30px;
               width: fit-content;
+        }
+    }
+}
+
+
+
+
+
+
+
+.cta_nav_bar{
+    padding: 10px 0;
+    p{
+        margin-bottom: 0;
+        color: #000;
+        font-size: 16px;
+        a{
+            color: $primary-color;
+            font-weight: bold;
+        font-size: 16px;
         }
     }
 }
