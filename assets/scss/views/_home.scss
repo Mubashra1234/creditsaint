@@ -464,7 +464,7 @@
 footer {
   background: #eff8ff;
   margin-top: 100px;
-  padding: 0;
+  padding: 100px 0;
   position: relative;
   &::before {
     background-image: url(../img/footer-wave.svg);
@@ -479,8 +479,20 @@ footer {
     width: 100%;
     z-index: 1;
   }
+  .contact-app{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 12px;
+  }
+
   p{
     color: $text-color;
+    font-weight: 500;
+    display: block;
+    margin-bottom: 23px;
+    line-height: 28px;
+
   }
   h4{
     color: $secondry-color;
@@ -514,13 +526,25 @@ footer {
     font-weight: 500;
     line-height: normal;
   }
-  .copy-right {
-    padding-bottom: 40px;
+  .footer-end {
+    
+    padding-top: 40px;
+    padding-top: 84px;
 
-    p {
-      color: $secondry-color;
-      font-size: 14px;
-      font-weight: 500;
-    }
   }
+  .copy-right {
+    margin-top: 40px;
+    padding-block: 40px;
+   border-top: 2px solid #33333314;
+ 
+  }
+  .btn{
+    display: block;
+    text-align: justify;
+padding-left: 0;
+color: $text-color;
+font-weight: 500;
+display: block;
+margin-bottom: 10px;  
+}
 }

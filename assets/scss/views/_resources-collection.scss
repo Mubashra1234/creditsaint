@@ -1,0 +1,22 @@
+.collection{
+    padding-block: 211px;
+    text-align: center;
+    &-list{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        max-width: 720px;
+        margin: auto;
+        &-item{
+            text-align: left;
+            background-color: #f3f3f3;
+            font-weight: 500;
+            transition: background-color .1s, color .1s;
+            font-size: 16px;
+            font-weight: 500;
+            padding: 8px 19.2px;
+            border-radius: 8px;
+            color: $text-color;
+            margin: 4px;
+        }
+    }
+}

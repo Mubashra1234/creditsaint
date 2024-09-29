@@ -14,7 +14,11 @@
     }
     &-brand{
         padding-block: 13px;
-    }
+img{
+        padding: 7px;
+        border-radius: 50%;
+    max-width: 80%;box-shadow: 0 0 45px 0 rgba(0, 0, 0, .1);
+}}
     .nav-item{
         margin-right: 20px;
      
@@ -52,14 +56,15 @@ line-height: 140%;
 
 .cta_nav_bar{
     padding: 10px 0;
+    background: #13398f;
+    color: white;
     p{
         margin-bottom: 0;
-        color: #000;
         font-size: 16px;
         a{
-            color: $primary-color;
             font-weight: bold;
         font-size: 16px;
+        color: white;
         }
     }
 }
