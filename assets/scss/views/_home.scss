@@ -13,13 +13,13 @@
     content: "";
     height: 210px;
     position: absolute;
-    top: 640px;
+    bottom: 0px;
     width: 100%;
     z-index: 2;
     transform: rotate(0) scaleX(-1);
   }
   &-content {
-    max-width: 580px;
+    max-width: 600px;
     h1 {
       font-size: 52px;
       font-weight: 600;
@@ -42,6 +42,10 @@
       font-weight: 500;
       margin-bottom: 30px;
     }
+  }
+  .theme-btn{
+    display: block;
+    margin-top: 30px;
   }
 }
 .partner {
@@ -367,7 +371,7 @@
 .testimonial {
   background-color: #eff8ff;
   color: #fff;
-  margin: 40px auto;
+  margin: 40px auto 0;
   padding: 40px 0;
 }
 .testimonial-item {
