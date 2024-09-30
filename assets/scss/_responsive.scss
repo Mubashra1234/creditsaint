@@ -1,30 +1,36 @@
-@media(max-width:1440px){
+@media(max-width:1440px) {
     .collection {
         padding-block: 152px;
     }
 }
 
-@media(max-width:1200px){
+@media(max-width:1200px) {
     .opportunities-list {
         margin-bottom: 15px;
     }
-    .opportunities .row{
-  justify-content: center;
+
+    .opportunities .row {
+        justify-content: center;
     }
+
     .section-heading {
         font-size: 30px;
     }
+
     .section-paragraph {
         font-size: 16px;
         padding-bottom: 20px;
     }
+
     .gurantee-content {
         max-width: 80%;
-    }    
+    }
+
     .work-step__number {
         display: none;
     }
-    .work-card{
+
+    .work-card {
         padding-right: 0;
         background: white;
         border-radius: 8px;
@@ -32,17 +38,21 @@
         padding: 20px;
         width: 100%;
     }
-    .work .row{
+
+    .work .row {
         justify-content: center;
     }
-    .theme-btn{
+
+    .theme-btn {
         max-width: 240px;
-font-size: 15px;
+        font-size: 15px;
     }
-    .navbar-brand img{
-        height: 43px;
-        width: 172px;
+
+    .navbar-brand img {
+        max-width: 80px;
+
     }
+
     .navbar .nav-item {
         margin-right: 10px;
     }
@@ -50,341 +60,440 @@ font-size: 15px;
     .banner-content {
         max-width: 639px;
     }
+
     .pricing-card .card-features li {
         margin-top: 1rem;
     }
+
     .pricing-card {
         height: 98%;
     }
+
     .trusted .section-heading {
         font-size: 33px;
         padding-bottom: 18px;
     }
-    .process-item{
+
+    .process-item {
         max-width: fit-content;
         margin: auto;
         margin-bottom: 90px;
     }
-    .worry-free__bg{
+
+    .worry-free__bg {
         display: none;
     }
-    .worry-free .section-heading{
+
+    .worry-free .section-heading {
         text-align: center;
     }
-    .worry-free .section-paragraph{
+
+    .worry-free .section-paragraph {
         margin: auto;
         text-align: center;
     }
-    .worry-free p{
+
+    .worry-free p {
         margin: auto;
         margin-top: 20px;
-     text-align: center;
+        text-align: center;
     }
-    .worry-free span{
+
+    .worry-free span {
         margin: 20px auto;
         text-align: center;
     }
-    .worry-free-img{
+
+    .worry-free-img {
         text-align: center;
     }
-    .process-card{
+
+    .process-card {
         margin-top: 20px;
     }
+
     .about-banner-content h1 {
         font-size: 50px;
     }
+
     .about-banner-content p {
         font-size: 21px;
-     margin-bottom: 50px;
-    }        
+        margin-bottom: 50px;
+    }
+
     .credit-content h2 {
         font-size: 38px;
     }
-    .credit-content p, .credit-content p a{
+
+    .credit-content p,
+    .credit-content p a {
         font-size: 18px;
         line-height: 25px;
-    }    
+    }
 }
-@media(max-width:992px){
-    .navbar form .theme-btn{
+
+@media(max-width:992px) {
+    .navbar form .theme-btn {
         display: block;
     }
+
     .navbar-collapse {
         padding-bottom: 20px;
-}
-.banner::after{
-    top: 733px;
+    }
 
-}
-.packages-banner-content h1 {
-    font-size: 41px;
-}
-.packages-banner{
-    padding-block: 140px 70px;
-}
-.our-solution .main-img{
-    display: none;
-}
-.our-solution{
-    text-align: center;
-}
-.our-solution p{
-    margin: auto;
-}
-.our-solution .solution-list{
-    justify-content: end;
-}
-.our-solution .theme-btn{
-    margin: auto;
-    margin-top: 20px;
-}
-.tailored-content{
-    display: block;
-}
-.tailored-content h1 {
-    font-size: 40px;
-}
-.tailored-content h1 {
-    font-size: 55px;
-    width: fit-content;
-    margin: auto;
-}
-.tailored-content p {
-    text-align: center;
-    margin-block: 10px;
-}
-.financial-item{
-    margin-bottom: 20px;
-}
-.feature .section-heading{
-    text-align: center;
-}
-.feature .section-paragraph{
- margin: auto;
- text-align: center;
- }
-.feature .theme-btn{
-    margin: auto;
-}
-.banner{
-    padding: 108px 0 79px;
-}
-.banner::after {
-    top: 553px;
-}
-.banner-content h1 {
-    font-size: 41px;
-}
-.banner-content .review-rating {
-    font-size: 38px;
-}
-.banner::after {
-    top: 496px;
-}
-.choice .section-heading{
-    text-align: center;
-}
-.choice .section-paragraph{margin: auto;}
-.choice .d-flex{
-    justify-content: center;
-}
-.our-solution .solution-list {
-    justify-content: center;
-}
-.gurantee-content{
-    text-align: center;
-    margin-bottom: 20px;
-}
-.gurantee-content .theme-btn{
-    margin: auto;
-}
-.feature .section-paragraph {
-    max-width: 80%;
-}
-.credit-content h2 {
-    font-size: 28px;
-}
-.credit{
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: center;
-    justify-content: center;
-}
-.credit-content{
-    position: initial;
-    transform: translateY(0px);
-    text-align: center;
-    margin-bottom: 52px;
-
-}
-.credit-img .mobile-img{
-    display: block;
-    margin: auto;
-}
-.credit-img .desktop-img{
-    display: none;
-}
-.credit-content p, .credit-content p a {
-  
-    margin: auto;
-    max-width: 75%;
+    .banner::after {
 
 
-}
-.credit-content-btn{
-    justify-content: center;
-}
-}
+        height: 110px;
+    }
 
-@media(max-width:768px){
-  
-.banner {
+    .packages-banner-content h1 {
+        font-size: 41px;
+    }
 
-    background-position: bottom;}
+    .packages-banner {
+        padding-block: 140px 70px;
+    }
 
-.faq-banner {
-    padding-top: 116px;
-}
-.faq-banner-content h1{
-    font-size: 37px;
-    margin-bottom: 20px;
-}
-.faq-section .accordion-button{
-font-size: 16px;
-}
-.faq-section .accordion-body {
-    font-size: 16px;
-}
-.about-banner{
-    padding-bottom: 71px;
-    padding-top: 175px;
-}
-.about-banner-content h1 {
-    font-size: 36px;
-}
-.about-banner-content p {
-    font-size: 17px;
-    margin-bottom: 28px;
-}
-.trusted .theme-btn{
-    margin-bottom: 40px;
+    .our-solution .main-img{
+        margin-bottom: 40px;
+    }
 
-}
-.collection-list{
-    grid-template-columns: 1fr 1fr;
-}
-}
+    .our-solution {
+        text-align: center;
+    }
 
-@media(max-width:576px){
-    .navbar{
-margin: 0;  
-padding: 0;  }
-.banner-content h1 {
-    font-size: 26px;
-    margin-bottom: 10px;
-}
-.banner-content p{
-    font-size: 16px;
-}
-.choice .section-paragraph{
-    max-width: 100%;
- text-align: center;
-}
-.our-solution p{
-    max-width: 100%;
-}
-.our-solution .solution-list{
-    display: block;
-}
-.our-solution .solution-list ul{
-    margin-bottom: 20px;
-}
-.theme-btn{
-    font-size: 13px;
-}
-.gurantee img {
-    max-width: 270px;
-}
-.financial .most-popular-label::after{
-    right: -11px;
-.packages-banner-content h1 {
-   margin-bottom: 10px;
-    font-size: 24px;
-}
-.packages-banner-content p {
-    font-size: 17px;
-    line-height: 24px;
-    margin-top: 0;
-}
-.pricing-card .card-header .card-title {
-    font-size: 17px;
-}
-.pricing-card .card-header .card-aggressiveness {
-    font-size: 12px;
-}
-.pricing-card .card-header .price-section .price {
-    font-size: 35px;
-}
-.pricing-card .card-features{
-    padding-inline: 10px;
-}
-.pricing-card .card-features li span{
-    font-size: 14px;
-}
-.trusted{
-    padding-top: 0;
-}
-.trusted .section-heading {
-    font-size: 24px;
-    text-align: center;
-}
-.trusted .theme-btn{
-    margin: auto;
-}
-.trusted .money-back{
-    margin:  auto;
-    margin-top: 50px;
+    .our-solution p {
+        margin: auto;
+    }
 
+    .our-solution .solution-list {
+        justify-content: end;
+    }
 
-}
-.worry-free .theme-btn{
-    padding: 11px 0px;
+    .our-solution .theme-btn {
+        margin: auto;
+        margin-top: 20px;
+    }
 
-}
+    .tailored-content {
+        display: block;
+    }
 
-}
-.faq-banner-content h1 {
-    font-size: 27px;
-    margin-bottom: 14px;
-}
-.faq-banner-content p{
-    max-width: 100%;
-    font-size: 14px;
-}
-.about-banner-content h1 {
-    font-size: 32px;
-}
-.about-banner-content p {
-    font-size: 14px;
-    margin-bottom: 3px;
-}
-.credit-content p, .credit-content p a{
-    max-width: 100%;
-    font-size: 16px;
-        line-height: 21px;
-}
-.credit-content-btn{
-    display: block;
-    a{
+    .tailored-content h1 {
+        font-size: 40px;
+    }
+
+    .tailored-content h1 {
+        font-size: 55px;
+        width: fit-content;
+        margin: auto;
+    }
+
+    .tailored-content p {
+        text-align: center;
+        margin-block: 10px;
+    }
+
+    .financial-item {
+        margin-bottom: 20px;
+    }
+
+    .feature .section-heading {
+        text-align: center;
+    }
+
+    .feature .section-paragraph {
+        margin: auto;
+        text-align: center;
+    }
+
+    .feature .theme-btn {
+        margin: auto;
+    }
+
+    #credit-fight .square-wrapper{
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .banner {
+        padding: 160px 0 79px;
+    }
+
+    .banner-content h1 {
+        font-size: 41px;
+    }
+
+    .banner-content .review-rating {
+        font-size: 38px;
+    }
+
+    .choice .section-heading {
+        text-align: center;
+    }
+
+    .choice .section-paragraph {
+        margin: auto;
+    }
+
+    .choice .d-flex {
+        justify-content: center;
+    }
+
+    .our-solution .solution-list {
+        justify-content: center;
+    }
+
+    .gurantee-content {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .gurantee-content .theme-btn {
+        margin: auto;
+    }
+
+    .feature .section-paragraph {
+        max-width: 80%;
+    }
+
+    .credit-content h2 {
+        font-size: 28px;
+    }
+
+    .credit {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .credit-content {
+        position: initial;
+        transform: translateY(0px);
+        text-align: center;
+        margin-bottom: 52px;
+
+    }
+
+    .credit-img .mobile-img {
         display: block;
         margin: auto;
-        margin-block: 20px;
+    }
 
+    .credit-img .desktop-img {
+        display: none;
+    }
+
+    .credit-content p,
+    .credit-content p a {
+
+        margin: auto;
+        max-width: 75%;
+
+
+    }
+
+    .credit-content-btn {
+        justify-content: center;
     }
 }
 
-.collection-list {
-    display: grid;
-    grid-template-columns: 1fr;
+@media(max-width:768px) {
+    .banner::after {
+
+
+        height: 94px;
+    }
+
+    .banner {
+
+        background-position: bottom;
+    }
+
+    .faq-banner {
+        padding-top: 116px;
+    }
+
+    .faq-banner-content h1 {
+        font-size: 37px;
+        margin-bottom: 20px;
+    }
+
+    .faq-section .accordion-button {
+        font-size: 16px;
+    }
+
+    .faq-section .accordion-body {
+        font-size: 16px;
+    }
+
+    .about-banner {
+        padding-bottom: 71px;
+        padding-top: 175px;
+    }
+
+    .about-banner-content h1 {
+        font-size: 36px;
+    }
+
+    .about-banner-content p {
+        font-size: 17px;
+        margin-bottom: 28px;
+    }
+
+    .trusted .theme-btn {
+        margin-bottom: 40px;
+
+    }
+
+    .collection-list {
+        grid-template-columns: 1fr 1fr;
+    }
 }
+
+@media(max-width:576px) {
+    .navbar {
+        margin: 0;
+        padding: 0;
+    }
+
+    .banner-content h1 {
+        font-size: 26px;
+        margin-bottom: 10px;
+    }
+
+    .banner-content p {
+        font-size: 16px;
+    }
+
+    .choice .section-paragraph {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .our-solution p {
+        max-width: 100%;
+    }
+
+    .our-solution .solution-list {
+        display: block;
+    }
+
+    .our-solution .solution-list ul {
+        margin-bottom: 20px;
+    }
+
+    .theme-btn {
+        font-size: 13px;
+    }
+
+    .gurantee img {
+        max-width: 270px;
+    }
+
+    .financial .most-popular-label::after {
+        right: -11px;
+
+        .packages-banner-content h1 {
+            margin-bottom: 10px;
+            font-size: 24px;
+        }
+
+        .packages-banner-content p {
+            font-size: 17px;
+            line-height: 24px;
+            margin-top: 0;
+        }
+
+        .pricing-card .card-header .card-title {
+            font-size: 17px;
+        }
+
+        .pricing-card .card-header .card-aggressiveness {
+            font-size: 12px;
+        }
+
+        .pricing-card .card-header .price-section .price {
+            font-size: 35px;
+        }
+
+        .pricing-card .card-features {
+            padding-inline: 10px;
+        }
+
+        .pricing-card .card-features li span {
+            font-size: 14px;
+        }
+
+        .trusted {
+            padding-top: 0;
+        }
+
+        .trusted .section-heading {
+            font-size: 24px;
+            text-align: center;
+        }
+
+        .trusted .theme-btn {
+            margin: auto;
+        }
+
+        .trusted .money-back {
+            margin: auto;
+            margin-top: 50px;
+
+
+        }
+
+        .worry-free .theme-btn {
+            padding: 11px 0px;
+
+        }
+
+    }
+
+    .faq-banner-content h1 {
+        font-size: 27px;
+        margin-bottom: 14px;
+    }
+
+    .faq-banner-content p {
+        max-width: 100%;
+        font-size: 14px;
+    }
+
+    .about-banner-content h1 {
+        font-size: 32px;
+    }
+
+    .about-banner-content p {
+        font-size: 14px;
+        margin-bottom: 3px;
+    }
+
+    .credit-content p,
+    .credit-content p a {
+        max-width: 100%;
+        font-size: 16px;
+        line-height: 21px;
+    }
+
+    .credit-content-btn {
+        display: block;
+
+        a {
+            display: block;
+            margin: auto;
+            margin-block: 20px;
+
+        }
+    }
+
+    .collection-list {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
 }

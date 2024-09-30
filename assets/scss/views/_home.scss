@@ -3,8 +3,9 @@
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
-  padding: 200px 0 210px;
+  padding: 270px 0 210px;
   position: relative;
+  background-position: center;
 
   &::after {
     background: url(../img/wave.svg);
@@ -19,13 +20,19 @@
     transform: rotate(0) scaleX(-1);
   }
   &-content {
-    max-width: 600px;
+    max-width: 722px;
     h1 {
-      font-size: 52px;
+      font-size: 75px;
       font-weight: 600;
       margin: 0;
       color: $secondry-color;
       margin-bottom: 30px;
+    }
+    h2{
+      
+    font-size: 28px;
+    color: $secondry-color;
+    margin-top: 30px;
     }
     .review-rating {
       font-weight: 600;
@@ -85,6 +92,7 @@
     flex-direction: column;
     padding: 16px 13px;
     position: relative;
+    height: 100%;
     input {
       border: 1px solid rgba(35, 35, 35, 0.3);
       border-radius: 3px;
@@ -109,6 +117,9 @@
     display: block;
     margin: 56px auto;
   }
+  .col-xl-2.col-lg-3.col-sm-6{
+    margin-bottom: 20px;
+  }
 }
 .choice {
   background: #eff8ff;
@@ -120,6 +131,10 @@
   }
   .trusted-choice {
     position: relative;
+    h5{
+      font-size: 22px;
+      margin-bottom: 8px;
+    }
   }
  
 }
@@ -133,6 +148,9 @@
     display: flex;
     max-width: 500px;
     gap: 50px;
+  }
+  .main-img{
+    max-width: 350px;
   }
 
   ul {
@@ -344,6 +362,86 @@
       z-index: -1;
     }
   }
+}
+
+
+
+#credit-fight {
+	position: relative;
+	overflow: hidden;
+	background: #00214f;
+	.boundaries {
+		max-width: 995px;
+		margin: 40px auto;
+		padding: 0 20px;
+		text-align: center;
+	}
+	h2 {
+		color: #fff;
+		margin: 30px 20px;
+	}
+	.leader {
+		color: #fff;
+		font-size: 25px;
+		line-height: 42px;
+	}
+	.square-wrapper {
+		margin: 50px auto;
+		position: relative;
+		display: flex;
+		justify-content: space-between;
+	}
+	.pattern {
+		background: url(../img/plus-bg.png) repeat top left;
+		width: 350px;
+		height: 400px;
+		position: absolute;
+		top: -53px;
+		left: -150px;
+	}
+	.square {
+		max-width: 420px;
+		justify-content: space-between;
+		height: 295px;
+		background: #fff;
+		border-radius: 30px;
+		position: relative;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+	}
+	.square-img {
+		img {
+			border-top-left-radius: 30px;
+			border-bottom-left-radius: 30px;
+			height: 295px;
+      object-fit: cover;
+		}
+	}
+	.square-content-wrapper {
+		padding: 40px 20px;
+		text-align: left;
+	}
+	.square-title {
+		text-transform: uppercase;
+		font-size: 18px;
+		line-height: 24px;
+		font-weight: 600;
+		color: #00214f;
+	}
+	.square-content {
+		font-size: 14px;
+		line-height: 20px;
+		color: #3c3c3c;
+		margin: 20px auto 0;
+	}
+	.lex-cta-box {
+		.cta-leader {
+			color: #fff;
+			font-size: 18px;
+			line-height: 24px;
+		}
+	}
 }
 .consultation {
   text-align: center;

@@ -1,4 +1,4 @@
-.navbar{
+.navbar {
     left: 0;
     position: absolute;
     right: 0;
@@ -7,43 +7,56 @@
     border-radius: 8px;
     padding: 0 8px;
     box-shadow: 0 8px 60px rgba(0, 0, 0, .12);
-    &.menufixtop{
+
+    &.menufixtop {
         position: fixed;
-        
-    top: 0;
+
+        top: 0;
     }
-    &-brand{
+
+    &-brand {
         padding-block: 13px;
-img{
-        padding: 7px;
-        border-radius: 50%;
-    max-width: 80%;box-shadow: 0 0 45px 0 rgba(0, 0, 0, .1);
-}}
-    .nav-item{
-        margin-right: 20px;
-     
+
+        img {
+            padding: 7px;
+            border-radius: 50%;
+            max-width: 80%;
+            box-shadow: 0 0 45px 0 rgba(0, 0, 0, .1);
+            border: 1px solid black;
+        }
     }
-    .nav-link{
+
+    .nav-item {
+        margin-right: 20px;
+
+    }
+
+    .nav-link {
         padding: 8px 10px;
         color: #000;
-font-size: 16px;
-font-weight: 500;
-line-height: 140%;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 140%;
     }
-    form{
-        .nav-link{
-        padding: 15px;
+
+    form {
+        .nav-link {
+            padding: 15px;
         }
-        .theme-btn{
+
+        .theme-btn {
             padding: 12px 24px;
             background-color: $secondry-color !important;
             box-shadow: none !important;
             color: white;
-              font-size: 16px;
-              font-weight: 500;
-              line-height: 140%;
-              border-radius: 30px;
-              width: fit-content;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 140%;
+            border-radius: 30px;
+            width: fit-content;
+            &.dark{
+                background-color: #13398f !important;
+            }
         }
     }
 }
@@ -54,17 +67,19 @@ line-height: 140%;
 
 
 
-.cta_nav_bar{
+.cta_nav_bar {
     padding: 10px 0;
     background: #13398f;
     color: white;
-    p{
+
+    p {
         margin-bottom: 0;
         font-size: 16px;
-        a{
+
+        a {
             font-weight: bold;
-        font-size: 16px;
-        color: white;
+            font-size: 16px;
+            color: white;
         }
     }
 }
