@@ -1,0 +1,64 @@
+.affiliates{
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 200px 0;
+    &-heading{
+        text-align: center;
+        h1{
+         font-size: 44px;
+        }
+    }
+    &-list{
+        max-width: 604px;
+        margin: auto;
+        margin-block: 16px;
+        li{
+          display: flex;
+          align-items: flex-start;
+          gap: 10px;
+      
+    }
+    }
+    .get-started{
+    strong{
+        color:$secondry-color;
+        text-align: center;
+        display: block;
+    }
+p{
+    text-align: center;
+    a{
+        color: $primary-color;
+        text-decoration: underline;
+    }
+}
+    form{
+        background-color: #f7f7f7;
+    border-radius: 1em;
+    margin: auto;
+    max-width: 589px;
+    margin-top: 40px;
+    padding: 2em;
+label{
+    font-weight: 400;
+    display: block;
+color:$text-color;
+font-size: 16px;
+line-height: 1.5;
+
+}
+.form-control{
+    padding: 9px 12px;
+    margin-bottom: 16px;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    height: 56px;
+}
+.theme-btn{
+    display: block;
+    max-width: 100%;
+
+}
+    }
+}
+}

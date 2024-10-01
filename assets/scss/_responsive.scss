@@ -496,4 +496,33 @@
         display: grid;
         grid-template-columns: 1fr;
     }
+    .affiliates-heading h1 {
+        font-size: 25px;
+    }
+.affiliates-heading p{
+    font-size: 14px;
+}    
+.affiliates-list li p{
+        font-size: 14px;
+
+}
+.get-started .section-paragraph{
+    font-size: 14px;
+}
+.affiliates .get-started form {
+   
+    margin-top: 19px;
+    padding: 0.5em;
+}
+.affiliates .get-started form label {
+    font-size: 14px;
+}
+.affiliates .get-started form .form-control {
+    padding: 4px 5px;
+    margin-bottom: 10px;
+    height: 42px;
+}
+.affiliates {
+    padding: 133px 0;
+}
 }
