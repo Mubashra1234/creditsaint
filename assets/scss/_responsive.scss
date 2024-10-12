@@ -451,6 +451,9 @@
         padding: 0;
     }
 
+    .terms h1 {
+        font-size: 30px;
+    }    
     .banner-content {
         max-width: 320px;
         margin: auto;
@@ -751,6 +754,10 @@
     }
 
     footer {
-        padding: 0;
+      
+      padding: 0;
+    }
+    .terms ul {
+        padding-left: 15px;
     }
 }

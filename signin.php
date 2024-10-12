@@ -1,73 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
-    <title>Home</title>
-    <link rel="stylesheet" href="./assets/css/slick.css" />
-
-    <link rel="stylesheet" href="./assets/css/style.min.css" />
-  </head>
-  <body>
+<?php
+ if(isset($_GET['cty']) && $_GET['cty'] != ''){
+  $newword=$_GET['cty'];
+  }
+$GLOBALS['title'] = "Ihr Partner fÃ¼r die Graffitientfernung in NRW";
+$GLOBALS['desc'] = "Bis zu 70% gÃ¼nstiger als ein Neuanstrich âœ“ Festpreisgarantie âœ“ Jetzt anrufen : 02331 488 05 52";
+$GLOBALS['keywords'] = "Graffitientfernung";
+include('header.php'); ?>
 
 
-    <section class="cta_nav_bar">
-      <div class="container">
-         <p class="text-center">Get your free credit assessment today,<a href="#">Start now</a>
-         </p>
-         
-      </div>
-   </section>
-    <!-- header  -->
-    <header>
-      <nav class="navbar navbar-expand-lg bg-white" id="header-lower">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="./"
-            ><img src="./assets/img/logo.png" alt=""
-          /></a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="fa-solid fa-bars"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" href="./faq.html">FAQ</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./packages.html">Packages</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Resources
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="./resources-collection.html">Resources Collection</a>
-                  <a class="dropdown-item" href="./resources-number.html">Resources Numbers</a>
-                  
-                </div>
-              </li>  
-             
-             
-            </ul>
-            <form class="d-lg-flex d-block gap-3">
-             
-<a href="./signin.html" class="theme-btn">Login</a>
-              <a href="./signup.html" class="theme-btn dark">Sign Up</a>
-            </form>
-          </div>
-        </div>
-      </nav>
-    </header>
 
     <div class="packages-banner">
         <div class="container">
@@ -77,7 +17,9 @@
             </div>
         </div>
     </div>
-    <script type="text/javascript" src="https://form.jotform.com/jsform/242834671749064"></script>
+    <div class="container text-center">
+        <iframe name=frame_login id=frame_login src="https://www.secureclientaccess.com/login/post" height="700"  width="713" className="no-border" title="CRC" style="background:white" ></iframe>
+        </div>
         <section class="testimonial">
       <div class="container-xxl py-5">
         <div class="container">
@@ -214,70 +156,4 @@
           </div>
         </section>
       <!-- Callback End -->
-    <section class="consultation">
-      <div class="container">
-        <div class="consultation-card">
-          <h4>
-            Not sure where to begin?<br />
-            Start with a free consultation.
-          </h4>
-          <a href="" class="theme-btn">Get a Free Consultation</a>
-        </div>
-      </div>
-    </section>
-
-
-
-
-    <!-- Footer Start -->
-     <footer class="footer">
-    <div class="container-fluid" data-wow-delay="0.1s">
-      <div class="container py-5">
-          <div class="row g-5">
-              <div class="col-lg-3 col-md-6 contact-list">
-                  <h4 class=" mb-4">Our Office</h4>
-                  <p class="">30 N Gould St Ste R, Sheridan, WY 82801 USA</p>
-                  <a class="btn" href="tel:(307) 218-8667">(307) 218-8667</a>
-                  <a href="mailto:info@seanwhiteassociates.com">info@seanwhiteassociates.com </a>
-                  <p>Contact us</p>
-                  <div class="contact-app">
-                    <img src="./assets/img/contact1.svg" alt="" width="37" height="24">
-                    <img src="./assets/img/contact2.svg" alt="" width="37" height="24">
-                    <img src="./assets/img/contact3.svg" alt="" width="37" height="24">
-                  </div>
-              </div>
-              <div class="col-lg-3 col-md-6">
-                  <h4 class=" mb-4">Credit Programs
-                  </h4>
-                  <a class="btn " href="./packages.html">Packages</a>
-                  <a class="btn " href="./faq.html">FAQ</a>
-                  <a class="btn " href="./affiliates.html">Become an Affiliate</a>
-              </div>
-              <div class="col-lg-3 col-md-6">
-                  <h4 class=" mb-4">Legal</h4>
-                  <a class="btn " href="">Terms & Conditions</a>
-                  <a class="btn " href="">Privacy Policy</a>
-                  <a class="btn " href="">Disclosure</a>
-                  <a class="btn " href="">GLBA Privacy Notice</a>
-                  <a class="btn " href="">Your California Privacy Rights</a>
-                  <a href="" class="btn">Do Not Sell Request</a>
-              </div>
-          </div>
-          <p class="footer-end">Credit Experts: Available Monday-Friday, 7am-8pm EST. Saturday-Sunday, 10am-6pm EST
-            <br> Customer Service: Available Monday-Friday, 9am-8pm EST          </p>
-          <p class="copy-right">
-            
-            Copyright © 2024 Sean White & Associates. All rights reserved.FICO is a registered trademark of Fair Isaac Corporation in the United States and other countries. Sean White & Associates does not provide legal advice and is not a substitute for legal services. If you are dealing with credit and debt issues, you should contact a local attorney regardless of your use of our service. Sean White & Associates does not guarantee the permanent removal of verifiable tradelines or make promise(s) of any particular outcome whatsoever. Sean White & Associates requires active participation from its clientele regarding requested documents and information, including investigation results, for the sought-after outcome of a healthy, accurate credit report. Individual results may vary.                   
-          </p>
-      </div>
-  </div>
-</footer>
-  <script src="./assets/js/bootstrap.bundle.min.js"></script>
-  <script src="./assets/js/jquery-3.1.1.min.js"></script>
-  <script src="./assets/js/slick.js"></script>
-  <script src="./assets/js/main.js"></script>
-
-
-</body>
-
-</html>
+      <?php include('footer.php'); ?>

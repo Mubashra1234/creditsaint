@@ -1,74 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
-    <title>Home</title>
-    <link rel="stylesheet" href="./assets/css/slick.css" />
+<?php
+ if(isset($_GET['cty']) && $_GET['cty'] != ''){
+  $newword=$_GET['cty'];
+  }
+$GLOBALS['title'] = "Ihr Partner fÃ¼r die Graffitientfernung in NRW";
+$GLOBALS['desc'] = "Bis zu 70% gÃ¼nstiger als ein Neuanstrich âœ“ Festpreisgarantie âœ“ Jetzt anrufen : 02331 488 05 52";
+$GLOBALS['keywords'] = "Graffitientfernung";
+include('header.php'); ?>
 
-    <link rel="stylesheet" href="./assets/css/style.min.css" />
-  </head>
-  <body>
-
-
-    <section class="cta_nav_bar">
-      <div class="container">
-         <p class="text-center">Get your free credit assessment today,<a href="#">Start now</a>
-         </p>
-         
-      </div>
-   </section>
-    <!-- header  -->
-    <header>
-      <nav class="navbar navbar-expand-lg bg-white" id="header-lower">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="./"
-            ><img src="./assets/img/logo.png" alt=""
-          /></a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="fa-solid fa-bars"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" href="./faq.html">FAQ</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./packages.html">Packages</a>
-              </li>
-               
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Resources
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="./resources-collection.html">Resources Collection</a>
-                  <a class="dropdown-item" href="./resources-number.html">Resources Numbers</a>
-                  
-                </div>
-              </li>
-             
-             
-            </ul>
-            <form class="d-lg-flex d-block gap-3">
-             
-<a href="./signin.html" class="theme-btn">Login</a>
-              <a href="./signup.html" class="theme-btn dark">Sign Up</a>
-            </form>
-          </div>
-        </div>
-      </nav>
-    </header>
 
     <section class="resourse">
         <div class="container">
@@ -527,76 +465,4 @@
 
 
 
-            <!-- Callback End -->
-            <section class="consultation">
-              <div class="container">
-                <div class="consultation-card">
-                  <h4>
-                    Not sure where to begin?<br />
-                    Start with a free consultation.
-                  </h4>
-                  <a href="" class="theme-btn">Get a Free Consultation</a>
-                </div>
-              </div>
-            </section>
-        
-            <!-- Footer Start -->
-            <footer class="footer">
-              <div class="container-fluid" data-wow-delay="0.1s">
-                <div class="container py-5">
-                    <div class="row g-5">
-                        <div class="col-lg-3 col-md-6">
-                            <h4 class=" mb-4">Our Office</h4>
-                            <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
-                            <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
-                            <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
-                            <div class="d-flex pt-2">
-                                <a class="btn btn-square btn-outline-light rounded-circle me-2" href=""><i
-                                        class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square btn-outline-light rounded-circle me-2" href=""><i
-                                        class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square btn-outline-light rounded-circle me-2" href=""><i
-                                        class="fab fa-youtube"></i></a>
-                                <a class="btn btn-square btn-outline-light rounded-circle me-2" href=""><i
-                                        class="fab fa-linkedin-in"></i></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6">
-                            <h4 class=" mb-4">Services</h4>
-                            <a class="btn " href="">Financial Planning</a>
-                            <a class="btn " href="">Cash Investment</a>
-                            <a class="btn " href="">Financial Consultancy</a>
-                            <a class="btn " href="">Business Loans</a>
-                            <a class="btn " href="">Business Analysis</a>
-                        </div>
-                        <div class="col-lg-3 col-md-6">
-                            <h4 class=" mb-4">Quick Links</h4>
-                            <a class="btn " href="">About Us</a>
-                            <a class="btn " href="">Contact Us</a>
-                            <a class="btn " href="">Our Services</a>
-                            <a class="btn " href="">Terms & Condition</a>
-                            <a class="btn " href="">Support</a>
-                        </div>
-                        <div class="col-lg-3 col-md-6">
-                            <h4 class=" mb-4">Newsletter</h4>
-                            <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
-                            <div class="position-relative w-100">
-                                <input class="form-control bg-white border-0 w-100 py-3 ps-4 pe-5" type="text"
-                                    placeholder="Your email">
-                                <button type="button"
-                                    class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-          </footer>
-    
-  
-    <script src="./assets/js/bootstrap.bundle.min.js"></script>
-    <script src="./assets/js/jquery-3.1.1.min.js"></script>
-    <script src="./assets/js/slick.js"></script>
-    <script src="./assets/js/main.js"></script>
-  </body>
-  </html>
-  
+    <?php include('footer.php'); ?>

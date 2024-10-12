@@ -1,0 +1,46 @@
+.terms{
+    padding-block: 150px;
+    h1{
+        font-size: 40px;
+        color: #08324c;
+    }
+    .section-heading{
+        font-weight: 500;
+        font-size: 28px;
+    }
+    ul{
+        list-style: disc;
+        padding-left: 40px;
+        padding-bottom: 20px;
+    }
+    li{
+        padding-bottom: 19px;
+    }
+    table{
+        th{
+            font-size: 14px;
+            color: #000;
+        }
+        td{
+            font-size: 13px;
+            color: #000;
+            font-weight: 500;
+            line-height: 1.5;
+            p{
+                font-size: 18px;
+line-height: normal;
+            }
+        }
+    }
+    form{
+        label,span{
+            font-size: 13px;
+            color: #000;
+            font-weight: 500;
+        }
+    }
+    .section-paragraph{
+        line-height: 140%;
+    }
+
+}
