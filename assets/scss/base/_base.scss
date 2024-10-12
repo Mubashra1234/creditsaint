@@ -87,3 +87,12 @@ img {
     outline: 0;
     box-shadow: none;
 }
+
+
+
+
+@media (min-width: 1400px) {
+    .container {
+        max-width: 1184px;
+    }
+}

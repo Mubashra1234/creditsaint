@@ -86,3 +86,30 @@ function scrollFunction() {
         menutop.classList.remove("menufixtop");
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+$(document).ready(function(){
+    if ($(window).width() < 992) {
+      $('.slider').slick({
+        centerMode: true,
+        slidesToShow: 1,
+        dots: true,
+        arrows: false,
+        swipe: true,
+        swipeToSlide: true,
+
+  infinite : true,
+      });
+  
+      // Event listener for before slide change
+        }
+  });

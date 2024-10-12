@@ -4,7 +4,69 @@
     }
 }
 
+
+@media(min-width:991px) {
+    .choice {
+        .row.justify-content-center {
+            gap: 110px;
+        }
+        .choose-left {
+            margin: 0 0 0 auto;
+            max-width: 384px;
+        }
+        .choose-right{
+           
+    max-width: 280px;
+        }
+     .trusted-choice .section-paragraph {
+            padding-bottom: 0;
+        }
+    }
+    .custom-home-container {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 775px;
+        width: 100%;
+    }
+    .work-steps{
+        
+    margin: 0 auto;
+    max-width: 1050px;
+    width: 100%;
+    }
+    .tailored-content p{
+        
+    max-width: 279px;
+    margin-bottom: 5px;
+    }
+    .plans-cards{
+        margin: 0 auto;
+        max-width: 1050px;
+        padding-left: 0;
+        padding-right: 0;
+        width: 100%;
+    }
+    .financial .theme-btn{
+        margin-bottom: 0 !important;
+    }
+    
+    .gurantee-content{
+        margin: 0;
+        max-width: 322px;
+        margin-right: auto;
+    }
+}
+
 @media(max-width:1200px) {
+    .opportunities .col-xl-2 {
+        margin-bottom: 20px;
+    }
+
+    .opportunities .theme-btn {
+
+        margin: 10px auto;
+    }
+
     .opportunities-list {
         margin-bottom: 15px;
     }
@@ -37,6 +99,9 @@
         box-shadow: 0 0 45px 0 rgba(0, 0, 0, .1);
         padding: 20px;
         width: 100%;
+    }
+    .work-card {
+        margin-block: 20px;
     }
 
     .work .row {
@@ -137,6 +202,32 @@
         display: block;
     }
 
+    .work-card .step-number {
+        display: block;
+        font-size: 60px !important;
+        margin-bottom: 8px !important;
+    }
+
+    .work-card .section-paragraph {
+        font-size: 22px;
+        padding-bottom: 15px;
+        text-align: center;
+    }
+
+
+
+    .work .slick-track {
+        display: flex;
+        gap: 20px;
+
+        padding: 20px 0 40px;
+    }
+
+    .work-card .section-heading {
+        font-size: 24px;
+
+    }
+
     .navbar-collapse {
         padding-bottom: 20px;
     }
@@ -155,7 +246,7 @@
         padding-block: 140px 70px;
     }
 
-    .our-solution .main-img{
+    .our-solution .main-img {
         margin-bottom: 40px;
     }
 
@@ -212,7 +303,7 @@
         margin: auto;
     }
 
-    #credit-fight .square-wrapper{
+    #credit-fight .square-wrapper {
         flex-direction: column;
         align-items: center;
         gap: 40px;
@@ -360,13 +451,25 @@
         padding: 0;
     }
 
+    .banner-content {
+        max-width: 320px;
+        margin: auto;
+    }
+
     .banner-content h1 {
-        font-size: 26px;
+
+        font-size: 30px;
         margin-bottom: 10px;
+        line-height: 1.1;
+    }
+
+    .banner-content .review-rating img {
+        max-width: 110px;
     }
 
     .banner-content p {
         font-size: 16px;
+        margin-bottom: 5px;
     }
 
     .choice .section-paragraph {
@@ -374,12 +477,12 @@
         text-align: center;
     }
 
-    .our-solution p {
-        max-width: 100%;
+    .work .row {
+        display: block;
     }
 
-    .our-solution .solution-list {
-        display: block;
+    .our-solution p {
+        max-width: 100%;
     }
 
     .our-solution .solution-list ul {
@@ -391,7 +494,45 @@
     }
 
     .gurantee img {
-        max-width: 270px;
+        max-width: 129px;
+    }
+
+    .gurantee {
+
+        margin-inline: 20px;
+        border-radius: 20px;
+
+        .row {
+            flex-direction: column-reverse;
+            gap: 20px;
+        }
+    }
+
+    .tailored {
+
+        border-bottom: 6px solid #c1d8e8;
+    }
+
+    .tailored-content h1 {
+        font-size: 40px;
+        background: linear-gradient(#eff8ff, #1096ff) no-repeat 100% 26px;
+    }
+
+    .financial {
+        padding: 0;
+    }
+
+    .financial .most-popular-label {
+        padding-right: 14px;
+    }
+
+    .financial-item {
+        height: 100%;
+
+    }
+
+    .financial .col-lg-4 {
+        margin-bottom: 20px;
     }
 
     .financial .most-popular-label::after {
@@ -455,6 +596,10 @@
 
     }
 
+    .consultation-card h4 {
+        font-size: 20px;
+    }
+
     .faq-banner-content h1 {
         font-size: 27px;
         margin-bottom: 14px;
@@ -496,33 +641,116 @@
         display: grid;
         grid-template-columns: 1fr;
     }
+
     .affiliates-heading h1 {
         font-size: 25px;
     }
-.affiliates-heading p{
-    font-size: 14px;
-}    
-.affiliates-list li p{
+
+    .affiliates-heading p {
+        font-size: 14px;
+    }
+
+    .affiliates-list li p {
         font-size: 14px;
 
-}
-.get-started .section-paragraph{
-    font-size: 14px;
-}
-.affiliates .get-started form {
-   
-    margin-top: 19px;
-    padding: 0.5em;
-}
-.affiliates .get-started form label {
-    font-size: 14px;
-}
-.affiliates .get-started form .form-control {
-    padding: 4px 5px;
-    margin-bottom: 10px;
-    height: 42px;
-}
-.affiliates {
-    padding: 133px 0;
-}
+    }
+
+    .get-started .section-paragraph {
+        font-size: 14px;
+    }
+
+    .affiliates .get-started form {
+
+        margin-top: 19px;
+        padding: 0.5em;
+    }
+
+    .affiliates .get-started form label {
+        font-size: 14px;
+    }
+
+    .affiliates .get-started form .form-control {
+        padding: 4px 5px;
+        margin-bottom: 10px;
+        height: 42px;
+    }
+
+    .affiliates {
+        padding: 133px 0;
+    }
+
+    .banner {
+        padding: 139px 0 90px;
+    }
+
+    .banner .theme-btn {
+        display: inline-block;
+        margin-top: 9px;
+    }
+
+    .banner-content h2 {
+        font-size: 19px;
+    }
+
+    .choice {
+        background-color: transparent;
+        padding: 20px 0;
+
+        margin: 20px 0;
+    }
+
+    .choice-content {
+        background: #eff8ff;
+        border-bottom: 6px solid #c1d8e8 !important;
+        border-radius: 12px;
+        padding: 10px;
+    }
+
+    .testimonial {
+        padding-bottom: 0;
+
+        .py-5 {
+            padding-bottom: 0 !important;
+        }
+
+        .slick-slider {
+            margin-bottom: 0;
+        }
+    }
+
+    .callback {
+        padding: 0 !important;
+    }
+
+    .trusted-choice {
+        background: #eff8ff;
+        border-bottom: 6px solid #c1d8e8 !important;
+        border-radius: 12px;
+        width: 50%;
+        margin: 10px 0;
+        padding: 10px;
+    }
+
+    .choice .trusted-choice h5,
+    .choice .section-heading {
+        font-size: 22px;
+        margin-bottom: 5px;
+    }
+
+    .section-paragraph {
+        font-size: 14px;
+        padding-bottom: 15px;
+    }
+
+    .our-solution .section-heading {
+        margin-top: 40px;
+    }
+
+    .work {
+        padding-top: 0;
+    }
+
+    footer {
+        padding: 0;
+    }
 }
